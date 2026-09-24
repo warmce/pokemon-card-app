@@ -1,6 +1,6 @@
 <svelte:head>
 	<title>Random Card</title>
-	<meta name="description" content="How to play Sverdle" />
+	<meta name="description" content="Get a random pokemon card" />
 </svelte:head>
 
 <div class="text-column">
@@ -52,7 +52,7 @@
 
             // try to get high quality image first
             const pngUrl = randomCard.getImageURL('high', 'png');
-            console.log("random card: ", randomCard.name);
+            console.log("random card: ", randomCard);
             if (pngUrl) {
                 console.log("yay high quality png");
                 return pngUrl;

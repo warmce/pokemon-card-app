@@ -17,6 +17,9 @@
 		<button class="header-btn" aria-current={page.url.pathname === '/randomCard' ? 'page' : undefined}>
 			<a href={resolve('/randomCard')}>Random Card</a>
 		</button>
+		<button class="header-btn" aria-current={page.url.pathname === '/sets' ? 'page' : undefined}>
+			<a href={resolve('/sets')}>All Sets</a>
+		</button>
 </header>
 
 <style>

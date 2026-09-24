@@ -1,5 +1,5 @@
 <script lang="ts">
-	let cardUrl = $state('https://www.pngkey.com/png/full/845-8454007_venusaur-png-png-venusaur.png');
+	let venusaurImg = $state('https://www.pngkey.com/png/full/845-8454007_venusaur-png-png-venusaur.png');
 </script>
 
 <svelte:head>
@@ -11,15 +11,13 @@
 	<h1>
 		<span class="welcome">
 			<picture>
-				<source srcset={cardUrl} type="image/webp" />
-				<img src={cardUrl} alt="Welcome" />
+				<source srcset={venusaurImg} type="image/webp" />
+				<img src={venusaurImg} alt="Welcome" />
 			</picture>
 		</span>
 
 		Welcome<br /> to a pokemon site
 	</h1>
-
-
 </section>
 
 <style>
